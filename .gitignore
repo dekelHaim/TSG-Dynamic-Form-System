@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Virtual environments
+venv/
+env/
+
+# Node dependencies and logs
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Environment files (sensitive info)
+.env
+.env.local
+
+# IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output folders
+build/
+dist/
+.next/
+
+# Database storage folders
+postgres_data/
+redis_data/
