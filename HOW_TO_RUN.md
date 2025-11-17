@@ -44,12 +44,12 @@ curl -X POST http://localhost:8000/api/submissions/submit \
   -H "Content-Type: application/json" \
   -d '{
     "data": {
-      "name": "John Doe",
-      "email": "john@example.com",
-      "age": 25,
-      "gender": "male"
+      "age": 30,
+      "email": "test@example.com",
+      "gender": "male",
+      "name": "John Doe"
     }
-  }'
+}'
 Get all submissions:
 bash
 curl http://localhost:8000/api/submissions/
